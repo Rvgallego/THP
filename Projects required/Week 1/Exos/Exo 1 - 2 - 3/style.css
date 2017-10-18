@@ -1,0 +1,122 @@
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: inline;
+    display: block;
+    color: black;
+    float: right;
+    padding: 15px 10px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.intruction {
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.intruction:active {
+    opacity: 0.7;
+}
+
+.menu {
+    opacity: 0.5;
+    padding: 3px
+}
+
+.menu:hover {
+    opacity: 1;
+}
+
+.container {
+    background-color: ;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #666666;
+  border: 1px #FFFFFF solid;
+  font-size: 13px;
+  background: #f2f2f2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 120px;
+}
+
+section div{
+  margin: 10px;
+}
+
+input[type=text] {
+    width: 610px;
+    box-sizing: border-box;
+    border: 1px #D8D8D8 solid;
+    box-shadow: 3px 3px 3px #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 12px 20px 12px 10px;
+}
+
+input:hover[type=text] {
+    box-shadow: 3px 3px 5px #A4A4A4;
+}
+
+input:focus[type=text] {
+    border: 1px #D8D8D8 solid;
+    color: #000000;
+    outline: none;
+}
+
+input[type=submit] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #666666;
+  border: 1px #FFFFFF solid;
+  font-size: 13px;
+  background: #f2f2f2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input:hover[type=submit] {
+  background: #ffffff;
+  text-decoration: none;
+  border: 1px #D8D8D8 solid;
+  color: #000000;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+}

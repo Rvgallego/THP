@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Google</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="icon" type="google-icon" href="favicons.png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <ul>
+          <li><a href="https://accounts.google.com"><img src="button.png" class="intruction"></a></a></li>
+          <li><a href="https://www.google.fr/intl/es/about/products/"><img src="menu-g.png" class="menu" width="22" height="22"></a></li>
+          <li><a href="https://www.google.fr/imghp?hl=es&tab=wi">Imagénes</a></li>
+          <li><a href="https://accounts.google.com">Gmail</a></li>
+        </ul>
+      </header>
+
+      <div id="hidd" style="display:none">
+      <section>
+        <div><img class="logo" src="google.png" alt="Google" title="Google" width="380" height="150"/></div>
+        <div>
+          <form method="get" action="http://www.google.com/search">
+          <input type="text" name="q" title="Recherche" placeholder="Rechercher sur Google ou saisir une URL">
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <div><input type="submit" value="Recherche Google"></div>
+            <div><input type="submit" value="J'ai de la chance"></div>
+          </form>
+        </div>
+      </section>
+      </div>
+      <button style="text-align:center" type="button" onclick="document.getElementById('hidd').style.display='block'; this.style.display = 'none'">AFFICHER LES ÉLÉMENTS CENTRAUX</button>
+
+      <footer>
+        <div class="fixed">
+          <ul>
+            <li style="float:left"><a class="active" href="https://www.google.fr/intl/fr/ads/?fg=1"><font color="grey">Publicité</a></font></li>
+            <li style="float:left"><a href="https://www.google.fr/services/?fg=1#?modal_active=none"><font color="grey">Entreprise</a></font></li>
+            <li style="float:left"><a href="https://www.google.fr/intl/fr/about/"><font color="grey">À propos</a></font></li>
+            <li style="float:right"><a href="https://www.google.com/?gfe_rd=cr&dcr=0&ei=bxrVWaalAsnUXq2avdAL&gws_rd=ssl,cr&fg=1"><font color="grey">Utiliser Google.com</a></font></li>
+            <li style="float:right"><a href="https://www.google.fr/preferences?hl=fr"><font color="grey">Paramétres</a></font></li>
+            <li style="float:right"><a href="https://www.google.fr/intl/fr/policies/terms/regional.html"><font color="grey">Conditions</a></font></li>
+            <li style="float:right"><a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1"><font color="grey">Confidentialité</a></font></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="time.js"></script>
+  </body>
+</html>
